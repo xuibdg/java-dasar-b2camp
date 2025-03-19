@@ -26,6 +26,7 @@ public class Mobil {
 
     public static void main(String[] args) {
         Mobil mobil = new Mobil();
+
         mobil.merk = "toyota";
         mobil.warna = "merah";
         mobil.tahun = 2025;
