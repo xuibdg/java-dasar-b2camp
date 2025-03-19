@@ -1,6 +1,6 @@
 package Ichsan.belajar_java_Dasar;
 
-public class main {
+public class biodata {
     public static void main(String[] args) {
         System.out.println("hello worldd");
         String nama = "ichsan";
