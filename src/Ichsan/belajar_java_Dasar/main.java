@@ -5,11 +5,13 @@ public class main {
         System.out.println("hello worldd");
         String nama = "ichsan";
         int umur = 19;
+        double  tinggi = 165;
         char c = 'L';
         boolean sudahMenikah = false;
         String alamat = "jalan cicukang";
         System.out.println("nama: " + nama);
         System.out.println("umur: " + umur);
+        System.out.println("tinggi: " +  tinggi);
         System.out.println("JK: " + c);
         System.out.println("menikah: " + sudahMenikah);
     }
