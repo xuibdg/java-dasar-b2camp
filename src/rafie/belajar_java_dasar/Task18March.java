@@ -14,7 +14,7 @@
 
 package rafie.belajar_java_dasar;
 
-public class task18march {
+public class Task18March {
     public static void main(String[] args) {
     String nama = "Rafie Safaraz";
     String namaTerbalik = new StringBuilder(nama).reverse().toString();
