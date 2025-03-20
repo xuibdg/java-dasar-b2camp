@@ -14,5 +14,6 @@ public class Biodata {
         System.out.println("Tinggi Badan : " + TinggiBadan);
         System.out.println("Sudah Menikah : " + SudahMenikah);
         System.out.println("Alamat : " + Alamat);
+
     }
 }
