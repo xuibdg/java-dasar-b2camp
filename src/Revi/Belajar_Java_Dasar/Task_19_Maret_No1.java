@@ -18,7 +18,7 @@ public class Task_19_Maret_No1 {
             System.out.println("C");
         } else if (nilai >= 40) {
             System.out.println("D");
-        } else if (nilai < 40) {
+        } else if (nilai < 39) {
             System.out.println("E");
         } else {
             System.out.println("Nilai tidak valid!");

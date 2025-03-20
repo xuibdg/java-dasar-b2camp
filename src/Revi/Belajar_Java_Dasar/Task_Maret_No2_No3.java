@@ -7,7 +7,6 @@ public class Task_Maret_No2_No3 {
 
         ArrayList<String> FruitList = new ArrayList<>();
 
-        // Menambahkan nama-nama buah ke dalam ArrayList
         FruitList.add("Dragonfruit");
         FruitList.add("Mango");
         FruitList.add("Pineapple");

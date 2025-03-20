@@ -7,7 +7,7 @@ public class Task_20_Maret_No_1 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Angka: ");
-        int n = 10; scanner.nextInt();
+        int n =  scanner.nextInt();
 
         System.out.println("Ganjil:");
         for (int i = 1; i <= n; i += 2) {
