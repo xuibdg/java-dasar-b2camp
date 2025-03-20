@@ -25,5 +25,16 @@ public class Looping {
             System.out.println("Pengulangan ke : " + b);
             b++;
         }while (b < 5);
+
+        System.out.println(" ");
+        System.out.println("foreach==========");
+
+        String[] teman = {"Andi", "Budi", "Citra", "Dewi", "Eka"};
+
+        for (String nama : teman) {
+            System.out.println("Nama teman: " + nama);
+        }
+
+
     }
 }
