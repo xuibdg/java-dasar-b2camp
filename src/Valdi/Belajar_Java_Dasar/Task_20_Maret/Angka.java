@@ -1,4 +1,4 @@
-package Valdi.Belajar_Java_Dasar.Task_20_maret;
+package Valdi.Belajar_Java_Dasar.Task_20_Maret;
 
 //Buatlah program yang menyimpan beberapa angka dalam LinkedList, lalu mencetak elemen pertama dan terakhir dari daftar tersebut.
 
