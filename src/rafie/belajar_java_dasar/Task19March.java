@@ -42,6 +42,7 @@ import java.util.Scanner;
 //2. Buat program yang meminta input usia dan menentukan kategorinya menggunakan ternary operator bertingkat dengan ketentuan:
 //gunakan scanner agar usia dapat di input
 // TEMPLATE AWAL TERNARY OPERATOR: variable = (condition) ? expression_if_true : expression_if_false;
+// TEMPLATE AWAL TERNARY OPERATOR: (kondisi) ? ekspresi_jika_true : ekspresi_jika_false
 //Anak-anak jika usia < 13
 //Remaja jika usia 13 - 17
 //Dewasa jika usia 18 - 59
