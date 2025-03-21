@@ -1,4 +1,4 @@
-package jauhari.belajar_java_dasar.Looping;
+package jauhari.belajar_java_dasar.Task_20_Maret_2025.Looping;
 
 public class Looping {
 

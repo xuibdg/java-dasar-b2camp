@@ -19,7 +19,5 @@ public class LinkedListFirtsandLastElements {
         System.out.println("Urutan pertama: " + nomorPunggung.get(0));
         System.out.println("Urutan terakhir: " + nomorPunggung.getLast());
 
-
-
     }
 }
