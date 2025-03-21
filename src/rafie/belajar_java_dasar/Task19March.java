@@ -20,6 +20,7 @@ import java.util.Scanner;
 //
 //        System.out.println("Silahkan masukkan nama Anda: ");
 //        String inputanNama = scannerInputan.nextLine();
+//
 //        System.out.println("Silahkan masukkan angka (0-100): ");
 //        int inputan = scannerInputan.nextInt();
 //
@@ -48,23 +49,23 @@ import java.util.Scanner;
 
 //source: https://www.google.com/search?q=ternary+operator+pada+java&oq=ter&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzINCAEQABiDARixAxiABDIPCAIQRRg5GIMBGLEDGIAEMgoIAxAAGLEDGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg8MgYICBBFGD3SAQgxNzI5ajBqOagCALACAQ&sourceid=chrome&ie=UTF-8
 
-public class Task19March {
-    public static void main(String[] args) {
-
-        Scanner scannerInputan = new Scanner(System.in);
-
-        System.out.println("Silahkan masukkan nama Anda: ");
-        String inputanNama = scannerInputan.nextLine();
-
-        System.out.println("Silahkan masukkan umur Anda: ");
-        int inputanUmur = scannerInputan.nextInt();
-
-        String kategoriUmur = (inputanUmur < 13) ? "Anak-anak" : (inputanUmur <= 17) ? "Remaja" : (inputanUmur <= 59) ? "Dewasa" : "Lansia";
-
-        System.out.println("Kategori usia " + inputanNama + " adalah: " + kategoriUmur + " yaa.");
-
-    }
-}
+//public class Task19March {
+//    public static void main(String[] args) {
+//
+//        Scanner scannerInputan = new Scanner(System.in);
+//
+//        System.out.println("Silahkan masukkan nama Anda: ");
+//        String inputanNama = scannerInputan.nextLine();
+//
+//        System.out.println("Silahkan masukkan umur Anda: ");
+//        int inputanUmur = scannerInputan.nextInt();
+//
+//        String kategoriUmur = (inputanUmur < 13) ? "Anak-anak" : (inputanUmur <= 17) ? "Remaja" : (inputanUmur <= 60) ? "Dewasa" : "Lansia";
+//
+//        System.out.println("Kategori usia " + inputanNama + " adalah: " + kategoriUmur + " yaa.");
+//
+//    }
+//}
 
 //3.Buat program  yang meminta pengguna memasukkan dua angka dan operator matematika (+, -, *, /, %). Gunakan switch-case untuk melakukan operasi yang sesuai dan menampilkan hasilnya. Jika operator yang dimasukkan tidak valid, tampilkan pesan error.
 //        (Gunakan Scanner untuk menerima input dari pengguna.)
@@ -76,38 +77,38 @@ public class Task19March {
 
 //source: https://www.w3schools.com/java/ref_string_charat.asp
 
-//public class Task19March {
-//    public static void main(String[] args) {
-//
-//        Scanner scannerInputan = new Scanner(System.in);
-//
-//        System.out.println("Silahkan masukkan angka pertama Anda: ");
-//        int inputanAngkaPertama = scannerInputan.nextInt();
-//
-//        System.out.println("Silahkan masukkan operator pilihan Anda (+, -, *, /, %): ");
-//        char inputanOperator = scannerInputan.next().charAt(0);
-//
-//        System.out.println("Silahkan masukkan angka kedua Anda: ");
-//        int inputanAngkaKedua = scannerInputan.nextInt();
-//
-//        switch (inputanOperator) {
-//            case '+':
-//                System.out.println("Hasil penjumlahan dari " + inputanAngkaPertama + " ditambah dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama + inputanAngkaKedua));
-//                break;
-//            case '-':
-//                System.out.println("Hasil pengurangan dari " + inputanAngkaPertama + " dikurang dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama - inputanAngkaKedua));
-//                break;
-//            case '*':
-//                System.out.println("Hasil perkalian dari " + inputanAngkaPertama + " dikali dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama * inputanAngkaKedua));
-//                break;
-//            case '/':
-//                System.out.println("Hasil pembagian dari " + inputanAngkaPertama + " dibagi dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama / inputanAngkaKedua));
-//                break;
-//            case '%':
-//                System.out.println("Hasil modulus dari " + inputanAngkaPertama + " dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama % inputanAngkaKedua));
-//                break;
-//            default:
-//                System.out.println("Operator tidak valid! Cek kembali operator yang tersedia (+, -, *, /, %) ");
-//        }
-//    }
-//}
+public class Task19March {
+    public static void main(String[] args) {
+
+        Scanner scannerInputan = new Scanner(System.in);
+
+        System.out.println("Silahkan masukkan angka pertama Anda: ");
+        int inputanAngkaPertama = scannerInputan.nextInt();
+
+        System.out.println("Silahkan masukkan operator pilihan Anda (+, -, *, /, %): ");
+        char inputanOperator = scannerInputan.next().charAt(0);
+
+        System.out.println("Silahkan masukkan angka kedua Anda: ");
+        int inputanAngkaKedua = scannerInputan.nextInt();
+
+        switch (inputanOperator) {
+            case '+':
+                System.out.println("Hasil penjumlahan dari " + inputanAngkaPertama + " ditambah dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama + inputanAngkaKedua));
+                break;
+            case '-':
+                System.out.println("Hasil pengurangan dari " + inputanAngkaPertama + " dikurang dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama - inputanAngkaKedua));
+                break;
+            case '*':
+                System.out.println("Hasil perkalian dari " + inputanAngkaPertama + " dikali dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama * inputanAngkaKedua));
+                break;
+            case '/':
+                System.out.println("Hasil pembagian dari " + inputanAngkaPertama + " dibagi dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama / inputanAngkaKedua));
+                break;
+            case '%':
+                System.out.println("Hasil modulus dari " + inputanAngkaPertama + " dengan " + inputanAngkaKedua + " adalah " + (inputanAngkaPertama % inputanAngkaKedua));
+                break;
+            default:
+                System.out.println("Operator tidak valid! Cek kembali operator yang tersedia (+, -, *, /, %) ");
+        }
+    }
+}
