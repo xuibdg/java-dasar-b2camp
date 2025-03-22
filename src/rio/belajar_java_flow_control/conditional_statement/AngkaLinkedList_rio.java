@@ -8,12 +8,11 @@ public class AngkaLinkedList_rio {
         //sebuah wadah/tempat untuk menyimpan berupa teks/string yg lebih fleksibel & efisien
 
         AngkaLinkedlist.add("11");
+        AngkaLinkedlist.addLast("12");
         AngkaLinkedlist.add("13");
         AngkaLinkedlist.add("14");
         AngkaLinkedlist.add("15");
-        //AngkaLinkedlist.addFirst("12");
 
-        AngkaLinkedlist.addLast("12");  //menjadi elemen/urutan terakhir
         System.out.println(AngkaLinkedlist);
     }
 }
