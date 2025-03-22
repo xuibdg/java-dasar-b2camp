@@ -1,4 +1,4 @@
-package jauhari.belajar_java_dasar;
+package jauhari.belajar_java_dasar.Task_18_Maret_2025;
 
 public class Task_18_Maret_2025 {
     public static void main(String[] args) {

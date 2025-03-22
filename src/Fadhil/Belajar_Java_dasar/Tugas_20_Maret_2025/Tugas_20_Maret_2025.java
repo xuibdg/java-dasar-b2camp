@@ -41,10 +41,10 @@ Tugas_20_Maret_2025 {
         // Menambahkan beberapa nama buah ke dalam ArrayList
         buah.add("Apel");
         buah.add("Jeruk");
-        buah.addLast("Mangga");
+        buah.add("Mangga");
         buah.add("Pisang");
         buah.add("Durian");
-        buah.addFirst("Melon");
+        buah.add("Melon");
         buah.remove("Durian");  // Nomer 3
 
         // Menampilkan / mencetak semua nama buah yang ada di dalam ArrayList

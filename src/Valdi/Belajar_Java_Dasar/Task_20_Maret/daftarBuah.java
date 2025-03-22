@@ -1,4 +1,4 @@
-package Valdi.Belajar_Java_Dasar.Task_20_maret;
+package Valdi.Belajar_Java_Dasar.Task_20_Maret;
 
 import java.util.ArrayList;
 

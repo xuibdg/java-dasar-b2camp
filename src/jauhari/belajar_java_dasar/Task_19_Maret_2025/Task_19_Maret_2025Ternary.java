@@ -1,4 +1,4 @@
-package jauhari.belajar_java_dasar;
+package jauhari.belajar_java_dasar.Task_19_Maret_2025;
 
 import java.util.Scanner;
 

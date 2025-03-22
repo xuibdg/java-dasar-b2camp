@@ -19,29 +19,29 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-//public class Task20March {
-//    public static void main(String[] args) {
-//
-//        Scanner scannerInputan = new Scanner(System.in);
-//
-//        System.out.println("Masukan angka: ");
-//        int inputanAngka = scannerInputan.nextInt();
-//
-//        ArrayList<Integer> oddNumbers = new ArrayList<>();
-//        ArrayList<Integer> evenNumbers = new ArrayList<>();
-//
-//        for (int i = 1; i < inputanAngka; i++) {
-//            if (i % 2 == 0) {
-//                evenNumbers.add(i);
-//            } else {
-//                oddNumbers.add(i);
-//            }
-//        }
-//
-//        System.out.println("Angka ganjil: " + oddNumbers);
-//        System.out.println("Angka genap: " + evenNumbers);
-//    }
-//}
+public class Task20March {
+    public static void main(String[] args) {
+
+        Scanner scannerInputan = new Scanner(System.in);
+
+        System.out.println("Masukan angka: ");
+        int inputanAngka = scannerInputan.nextInt();
+
+        ArrayList<Integer> oddNumbers = new ArrayList<>();
+        ArrayList<Integer> evenNumbers = new ArrayList<>();
+
+        for (int i = 1; i < inputanAngka; i++) {
+            if (i % 2 == 0) {
+                evenNumbers.add(i);
+            } else {
+                oddNumbers.add(i);
+            }
+        }
+
+        System.out.println("Angka ganjil: " + oddNumbers);
+        System.out.println("Angka genap: " + evenNumbers);
+    }
+}
 
 //2. Buatlah program yang menyimpan daftar nama buah dalam ArrayList, lalu mencetak semua elemen di dalamnya.✅
 //3. nama buah tadi coba hapus salah satu nama buah nyaa✅
@@ -69,19 +69,17 @@ import java.util.Scanner;
 //}
 
 //4. Buatlah program yang menyimpan beberapa angka dalam LinkedList, lalu mencetak elemen pertama dan terakhir dari daftar tersebut. ✅
-public class Task20March {
-    public static void main(String[] args) {
-
-        LinkedList<Integer> simpanAngka = new LinkedList<>();
-
-        simpanAngka.add(100);
-        simpanAngka.add(2);
-        simpanAngka.add(3);
-        simpanAngka.add(4);
-        simpanAngka.add(5);
-        simpanAngka.add(9000);
-
-        System.out.println("Angka pertama: " + simpanAngka.getFirst());
-        System.out.println("Angka terakhir: " + simpanAngka.getLast());
-    }
-}
+//public class Task20March {
+//    public static void main(String[] args) {
+//
+//        LinkedList<Integer> simpanAngka = new LinkedList<>();
+//
+//        simpanAngka.add(1);
+//        simpanAngka.addLast(2);
+//        simpanAngka.addFirst(4);
+//        simpanAngka.add(1,3);
+//
+//        System.out.println("Angka pertama: " + simpanAngka.getFirst());
+//        System.out.println("Angka terakhir: " + simpanAngka.getLast());
+//    }
+//}
