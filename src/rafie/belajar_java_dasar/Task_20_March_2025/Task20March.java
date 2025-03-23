@@ -1,4 +1,4 @@
-package rafie.belajar_java_dasar;
+package rafie.belajar_java_dasar.Task_20_March_2025;
 
 //1. Buatlah program yang mencetak angka ganjil dan genap, masing-masing di baris baru. gunakan scanner
 //Contoh:
@@ -16,7 +16,6 @@ package rafie.belajar_java_dasar;
 //Angka ganjil : [1,3,5,7,9]
 //Angka genap : [2,4,6,8,10]✅
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Task20March {

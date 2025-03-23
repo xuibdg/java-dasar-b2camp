@@ -12,7 +12,7 @@
 //Buat variable untuk  konversi dari int ke double dan dari double ke int✅ source: https://codegym.cc/id/groups/posts/id.626.bagaimana-mengkonversi-int-menjadi-double-di-java
 
 
-package rafie.belajar_java_dasar;
+package rafie.belajar_java_dasar.Task_18_March_2025;
 
 public class Task18March {
     public static void main(String[] args) {

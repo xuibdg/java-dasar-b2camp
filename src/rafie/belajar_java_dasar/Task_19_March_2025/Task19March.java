@@ -1,4 +1,4 @@
-package rafie.belajar_java_dasar;
+package rafie.belajar_java_dasar.Task_19_March_2025;
 
 import java.util.Scanner;
 
