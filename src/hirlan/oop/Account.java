@@ -8,7 +8,6 @@ public class Account {
         this.name = name;
         this.saldo = saldo;
     }
-    // the Bicycle class has three methods
     public void ngurang(int decrement)
     {
         saldo -= decrement;
@@ -37,6 +36,7 @@ public class Account {
 
     public String toString(){
         return ("nama saudara : "+name +"\n"
+                +" "
                 +"jumlah saldo : "+ saldo);
     }
 

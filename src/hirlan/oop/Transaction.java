@@ -12,8 +12,6 @@ public class Transaction extends Account {
         transaksi = value;
     }
 
-    // overriding toString() method
-    // of Bicycle to print more info
     @Override public String toString()
     {
         return (super.toString() + "\nset trx nya "
