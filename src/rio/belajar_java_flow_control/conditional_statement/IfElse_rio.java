@@ -1,4 +1,6 @@
 package rio.belajar_java_flow_control.conditional_statement;
+// 1. buatkan program Java yang meminta pengguna memasukkan nilai ujian (0-100).
+// Program harus menampilkan kategori nilai berdasarkan skema berikut:
 
 import java.util.Scanner;
 
