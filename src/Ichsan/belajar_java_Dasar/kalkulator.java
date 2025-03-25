@@ -25,7 +25,7 @@ public class kalkulator {
         switch(alat){
             case '+':
                 hasil= jumlah1 + jumlah2;
-                System.out.println("Hasil: " + jumlah1 + " " + '+' + " " + jumlah2 + " = " + hasil );
+                System.out.println("Hasil: " + jumlah1 + '+'  + jumlah2 + " = " + hasil );
                 break;
             case '*':
                 hasil= jumlah1 * jumlah2;
@@ -36,7 +36,7 @@ public class kalkulator {
                 System.out.println("Hasil: " + jumlah1 + " " + '-' + " " + jumlah2 + " = " + hasil) ;
                 break;
             case '/':
-                if(jumlah2 !=0){
+               if(jumlah2 !=0){
                 hasil= jumlah1 / jumlah2;
                 System.out.println("Hasil: " + jumlah1 + " " + '/' + " " + jumlah2 + " = " + hasil);
                 }else{

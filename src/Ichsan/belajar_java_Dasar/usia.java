@@ -1,4 +1,7 @@
 package Ichsan.belajar_java_Dasar;
+//NO.2 Buat program yang meminta input usia dan menentukan kategorinya menggunakan ternary operator
+// bertingkat dengan ketentuan:
+//  gunakan scanner agar usia dapat di input
 
 import java.util.Scanner;
 
@@ -11,7 +14,7 @@ public class usia {
                 (usia < 13) ? "Bocil" :
                         (usia <= 17) ? "Remaja" :
                         (usia <= 59) ? "Dewasa" :
-                        (usia <= 60) ? "Aki-Aki" : "lansia";
+                        (usia <= 70) ? "Aki-Aki" : "lansia";
         System.out.println("Kategori Usia: " + kumpulanUsia);
         scanner.close();
     }

@@ -1,4 +1,7 @@
 package Ichsan.belajar_java_Dasar;
+//1.buatkan program Java yang meminta pengguna memasukkan nilai ujian (0-100).:
+//Program harus menampilkan kategori nilai berdasarkan skema berikut
+// gunakan scanner agar nilai dapat di input
 
 import java.util.Scanner;
 
@@ -13,15 +16,16 @@ public class nilaiUjian {
        else if (n >= 70) {
             System.out.println("Nilai = 'B'");
         }
-        else if (n == 55) {
+        else if (n >= 55) {
             System.out.println("Nilai = 'C'");
         }
-        else if (n == 40) {
+        else if (n >= 40) {
             System.out.println("Nilai = 'D'");
         }
         else {
             System.out.println("Nilai = 'F'");
         }
+        scanner.close();
     }
 }
 
