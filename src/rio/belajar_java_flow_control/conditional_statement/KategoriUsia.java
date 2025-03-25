@@ -1,4 +1,6 @@
 package rio.belajar_java_flow_control.conditional_statement;
+//2. Buat program yang meminta input usia dan
+// menentukan kategorinya menggunakan ternary operator bertingkat dengan ketentuan:
 
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class KategoriUsia {
 
         String kategori = (usia < 13) ? "Anak-anak" :
                 (usia >= 13 && usia <= 17) ? "Remaja" :
-                        (usia >= 18 && usia <= 59) ? "Dewasa" : "Lansia";
+                        (usia >= 18 && usia <= 59) ? "Dewasa" : "Lansia" ;
 
         System.out.println("Kategori usia: " + kategori);
 

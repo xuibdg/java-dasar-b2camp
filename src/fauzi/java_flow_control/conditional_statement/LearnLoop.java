@@ -1,6 +1,8 @@
 package fauzi.java_flow_control.conditional_statement;
 
-public class LearnLoop {
+import fauzi.oop.Hewan;
+
+public class LearnLoop extends Hewan {
     public static void main(String[] args) {
 
         for (int i = 0; i < 5; i++) {

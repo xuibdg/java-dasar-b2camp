@@ -1,5 +1,9 @@
 package rio.belajar_java_flow_control.conditional_statement;
 
+// 3. Buat program  yang meminta pengguna memasukkan dua angka dan operator matematika (+, -, *, /, %).
+// Gunakan switch-case untuk melakukan operasi yang sesuai dan menampilkan hasilnya.
+// Jika operator yang dimasukkan tidak valid, tampilkan pesan error.
+//(Gunakan Scanner untuk menerima input dari pengguna.)
 import java.util.Scanner;
 
 public class SwitchCase {
