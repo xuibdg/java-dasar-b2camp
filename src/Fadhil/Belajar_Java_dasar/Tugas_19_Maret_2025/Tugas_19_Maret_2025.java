@@ -93,5 +93,7 @@ public class Tugas_19_Maret_2025 {
 
         // Menutup scanner setelah selesai
         scanner.close();
+
+
    }
 }
