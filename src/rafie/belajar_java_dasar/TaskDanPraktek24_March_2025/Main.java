@@ -1,5 +1,7 @@
 package rafie.belajar_java_dasar.TaskDanPraktek24_March_2025;
 
+// Main.java sebagai PSVM.
+
 import java.util.Scanner;
 
 public class Main {

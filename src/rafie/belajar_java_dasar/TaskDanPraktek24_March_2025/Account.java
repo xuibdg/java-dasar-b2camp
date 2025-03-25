@@ -1,5 +1,7 @@
 package rafie.belajar_java_dasar.TaskDanPraktek24_March_2025;
 
+// Di account gaada psvm, hanya ada attribute (nama, no rek, dan saldo).
+
 public class Account{
 
     String nama;
@@ -20,13 +22,13 @@ public class Account{
         this.nama = nama;
     }
 
-    public int getNoRek(){
-        return noRek;
-    }
-
-    public void setNoRek(int noRek){
-        this.noRek = noRek;
-    }
+//    public int getNoRek(){
+//        return noRek;
+//    }
+//
+//    public void setNoRek(int noRek){
+//        this.noRek = noRek;
+//    }
 
     public int getSaldo(){
         return saldo;
@@ -36,6 +38,7 @@ public class Account{
         this.saldo = saldo;
     }
 
+// Method showDetails taruh di Transaction.java atau InternalTransfer.java
     public void showDetails() {
         System.out.print("Nama: " + nama + " No Rek: " + noRek + " Saldo: " + saldo + " Rp ");
     }
