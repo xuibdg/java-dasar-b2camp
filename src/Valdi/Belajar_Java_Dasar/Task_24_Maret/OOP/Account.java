@@ -1,4 +1,4 @@
-package Valdi.Belajar_Java_Dasar.OOP;
+package Valdi.Belajar_Java_Dasar.Task_24_Maret.OOP;
 
 //1.buat class namanya account (encapsulation) ada field nama, norek, saldo
 
@@ -35,7 +35,6 @@ public class Account {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
 
     public void informasi(){
         System.out.println("Nama : " + nama);

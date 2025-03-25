@@ -1,7 +1,7 @@
-package Valdi.Belajar_Java_Dasar.OOP;
+package Valdi.Belajar_Java_Dasar.Task_24_Maret.OOP;
 
 //2.buat class Transaction (super class), di dlmnya ada metode transaksi
-//Yang dimana di cuman punya parameter “sourceAccount,destinationAccount,nominal”
+//Yang dimana dia cuman punya parameter “sourceAccount,destinationAccount,nominal”
 
 public abstract class Transaction {
 
@@ -12,4 +12,6 @@ public abstract class Transaction {
         //nominal jumlah yang di transfer
 
     }
+
+
 }

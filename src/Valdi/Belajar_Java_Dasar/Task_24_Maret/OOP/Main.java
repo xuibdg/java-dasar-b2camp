@@ -1,4 +1,4 @@
-package Valdi.Belajar_Java_Dasar.OOP;
+package Valdi.Belajar_Java_Dasar.Task_24_Maret.OOP;
 
 import java.util.Scanner;
 
@@ -10,6 +10,8 @@ public class Main {
         Account akun2 = new Account("aldo", "987654321", 500000);
         //membuat dua akun ke account
 
+
+
         System.out.println("Saldo sebelum di transfer");
         akun1.informasi();
         System.out.println("----------");
@@ -20,7 +22,7 @@ public class Main {
         double nominal = scanner.nextDouble();
         //menggunakan scanner agar bisa di input ke nominal
 
-        InternalTransaction transaction = new InternalTransaction();
+        InternalTransfer transaction = new InternalTransfer();
         transaction.transaksi(akun1, akun2, nominal);
         //melakukan proses transaksi
 

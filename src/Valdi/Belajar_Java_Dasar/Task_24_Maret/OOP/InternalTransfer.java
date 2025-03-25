@@ -1,9 +1,9 @@
-package Valdi.Belajar_Java_Dasar.OOP;
+package Valdi.Belajar_Java_Dasar.Task_24_Maret.OOP;
 
 //3.buat class InternalTransfer (sub class transaction) implementasi ulang sesuai internalTransfer , source di kurang, destination di tambah
 //—buat parameter nominal menggunakan scanner, dan gunakan prinsip OOP
 
-public class InternalTransaction extends Transaction{
+public class InternalTransfer extends Transaction{
     @Override //mengimplementasi ulang method abstrak transaksi
     public void transaksi(Account sourceAccount, Account destinasionAccount, double nominal){
         if (sourceAccount.getSaldo() >= nominal){
