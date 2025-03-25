@@ -11,9 +11,8 @@ class Main {
         Account akun2 = new Account("UUNG", "30003000", 400000);
 
         System.out.println("Sebelum transaksi:");
-        System.out.println("Saldo " + akun1.getNama() + ": " + akun1.getSaldo());
-        System.out.println("Saldo " + akun2.getNama() + ": " + akun2.getSaldo());
-
+        System.out.println("Saldo " + akun1.getNama() + akun1.getNomorRekening()  + ": " + akun1.getSaldo());
+        System.out.println("Saldo " + akun2.getNama() + akun2.getNomorRekening()  + ": " + akun2.getSaldo());
         System.out.print("Masukkan jumlah transfer: ");
         double nominal = scanner.nextDouble();
 

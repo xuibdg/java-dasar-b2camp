@@ -15,4 +15,3 @@ public class InternalTransfer extends Transaction {
 }
 
 
-
