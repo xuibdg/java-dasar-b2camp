@@ -4,12 +4,13 @@ package Valdi.Belajar_Java_Dasar.Lamda;
 //        perbedaan anonim
 //        selain list apa yang bisa dijadikan lamda
 
-import java.math.BigDecimal;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class LearnLamda {
     public static void main(String[] args) {
+
+
 
         System.out.println("====================list string");
 
@@ -20,6 +21,8 @@ public class LearnLamda {
             System.out.println(name + " - " + i.getAndIncrement());
         });
 
+
+
         System.out.println("====================list integer");
 
         List<Integer> numbers = Arrays.asList(1, 2, 3);
@@ -28,6 +31,8 @@ public class LearnLamda {
         numbers.forEach(number -> {
             System.out.println(number + " - " + o.getAndIncrement());
         });
+
+
 
         System.out.println("====================array list");
 
@@ -42,6 +47,8 @@ public class LearnLamda {
             System.out.println("Jenis mobil : " + car);
         });
 
+
+
         System.out.println("====================linked list");
 
         LinkedList<Integer> prices = new LinkedList<>();
@@ -55,6 +62,8 @@ public class LearnLamda {
             System.out.println("Harga : " + price);
         });
 
+
+
         System.out.println("====================set");
 
         Set<String> dealers = new HashSet<>();
@@ -65,6 +74,8 @@ public class LearnLamda {
         dealers.add("Mazda");
 
         dealers.forEach( dealer -> System.out.println("Merek mobil tersebut adalah : " + dealer));
+
+
 
         System.out.println("====================map");
 
@@ -77,6 +88,8 @@ public class LearnLamda {
 
         address.forEach( (key, value) -> System.out.println("Alamat dealer : No " + key + " Alamat : " + value));
 
+
+
         System.out.println("====================Queue");
 
         Queue<Integer> platNo = new LinkedList<>();
@@ -87,6 +100,8 @@ public class LearnLamda {
         platNo.add(3758);
 
         platNo.forEach( platBaru -> System.out.println("Nomor plat tersebut adalah : " + platBaru));
+
+
 
         System.out.println("====================stack");
 
@@ -99,6 +114,8 @@ public class LearnLamda {
 
         colors.forEach( color -> System.out.println("Warna mobil tersebut adalah : " + color));
 
+
+
         System.out.println("====================treeset");
 
         TreeSet<Integer> harga = new TreeSet<>();
@@ -109,6 +126,8 @@ public class LearnLamda {
         harga.add(575000000);
 
         harga.forEach( hargaBaru -> System.out.println("Harga mobil saat baru : " + hargaBaru));
+
+
 
         System.out.println("====================treemap");
 
