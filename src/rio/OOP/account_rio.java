@@ -16,6 +16,7 @@ public class account_rio {
     }
     public void setNama(String nama){
         this.nama = nama;
+
     }
     public String getNorek(){
         return norek;
