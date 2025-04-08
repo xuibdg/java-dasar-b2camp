@@ -36,10 +36,10 @@ public class Account {
         this.saldo = saldo;
     }
 
-    public void informasi(){
-        System.out.println("Nama : " + nama);
-        System.out.println("Nomor Rekening : " + norek);
-        System.out.println("Total Saldo : Rp " + saldo);
-    }
+//    public void informasi(){
+//        System.out.println("Nama : " + nama);
+//        System.out.println("Nomor Rekening : " + norek);
+//        System.out.println("Total Saldo : Rp " + saldo);
+//    }
 
 }

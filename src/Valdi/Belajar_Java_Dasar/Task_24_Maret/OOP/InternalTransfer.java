@@ -16,5 +16,7 @@ public class InternalTransfer extends Transaction{
         //sourceAccount rekening yang mengirim
         //destinasionAccount rekening penerima uang
         //nominal jumlah yang dikirim
+
+
     }
 }
