@@ -6,6 +6,16 @@ public class CustomerEncap {
     private Integer age;
     private String passportNumber;
 
+    public CustomerEncap(Integer customerId, String name, Integer age, String passportNumber) {
+        CustomerId = customerId;
+        this.name = name;
+        this.age = age;
+        this.passportNumber = passportNumber;
+    }
+
+    public CustomerEncap() {
+    }
+
     public Integer getCustomerId() {
         return CustomerId;
     }
