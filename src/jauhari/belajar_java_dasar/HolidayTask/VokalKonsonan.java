@@ -1,6 +1,6 @@
 package jauhari.belajar_java_dasar.HolidayTask;
 
-public class Trial {
+public class VokalKonsonan {
     public static void main(String[] args) {
         String[] varA = {"aku adalah seorang programmer java"};
         String kalimat = varA[0].toLowerCase();
