@@ -1,7 +1,6 @@
-package Adam.Belajar_Java_dasar;
+package Adam.Belajar_Java_dasar.OOP;
 
 import java.math.BigDecimal;
-import java.util.Scanner;
 
 public class Transaction_Adam {
 

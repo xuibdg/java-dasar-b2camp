@@ -1,4 +1,4 @@
-package Adam.Belajar_Java_dasar;
+package Adam.Belajar_Java_dasar.OOP;
 
 import java.math.BigDecimal;
 
