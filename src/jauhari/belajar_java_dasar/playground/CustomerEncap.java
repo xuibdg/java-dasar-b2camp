@@ -12,10 +12,6 @@ public class CustomerEncap {
         this.age = age;
         this.passportNumber = passportNumber;
     }
-
-    public CustomerEncap() {
-    }
-
     public Integer getCustomerId() {
         return CustomerId;
     }
@@ -44,7 +40,4 @@ public class CustomerEncap {
         return passportNumber;
     }
 
-    public void setPassportNumber(String passportNumber) {
-        this.passportNumber = passportNumber;
     }
-}
