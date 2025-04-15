@@ -1,9 +1,13 @@
 package hirlan.oop;
 
-public class Account {
+public class Account extends Exception {
     private String name;
     private String noRek;
     private int saldo;
+
+    public Account(String message){
+        super(message);
+    }
 
     public Account(String name,String noRek, int saldo) {
         this.name = name;
