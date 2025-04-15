@@ -16,7 +16,7 @@ public class NilaiUjian {
                 System.out.println("C");
             } else if (n >= 40) {
                 System.out.println("D");
-            } else if (n < 40) {
+            } else {
                 System.out.println("E");
 
             }

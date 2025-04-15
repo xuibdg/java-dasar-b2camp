@@ -6,7 +6,6 @@ public class Account {
     private String norek;
     private double saldo;
 
-    // Constructor
     public Account(String nama, String norek, double saldo) {
         this.nama = nama;
         this.norek = norek;

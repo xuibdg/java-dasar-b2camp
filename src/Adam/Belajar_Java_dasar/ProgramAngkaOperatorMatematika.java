@@ -12,7 +12,7 @@ public class ProgramAngkaOperatorMatematika {
         double value1 = scanner.nextDouble();
 
         System.out.print("Input Operator (+, -, *, /, %) : ");
-        char operator = scanner.next().charAt(0);
+        char operator = scanner.next().charAt(3);
 
         System.out.print("Input Second Value : ");
         double value2 = scanner.nextDouble();
