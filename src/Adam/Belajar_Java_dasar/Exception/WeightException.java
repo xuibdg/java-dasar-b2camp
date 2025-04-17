@@ -9,7 +9,7 @@ public class WeightException extends Exception{
 class WeightExceptionCustom {
     public static void main(String[] args) {
         try {
-            validateWeight(22);
+            validateWeight(24);
         } catch (WeightException e) {
             System.out.println("warning : " + e.getMessage());
         } finally {
