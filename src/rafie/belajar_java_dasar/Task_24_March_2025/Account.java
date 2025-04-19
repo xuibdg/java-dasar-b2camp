@@ -1,4 +1,4 @@
-package rafie.belajar_java_dasar.TaskDanPraktek24_March_2025;
+package rafie.belajar_java_dasar.Task_24_March_2025;
 
 // Di account gaada psvm, hanya ada attribute (nama, no rek, dan saldo).
 

@@ -2,6 +2,10 @@ package rafie.belajar_java_dasar.Task_25_March_2025;
 
 // Coba-coba lambda. Perbedaan yang anonim dengan lambda. apakah selain list bisa pake lambda?
 
+// Bentuk umum Lambda: (parameter) -> { body }
+// -> : operator/ekspresi Lambda.
+
+
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
