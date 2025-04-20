@@ -84,9 +84,14 @@ public class MultiThread {
         t3.start();
         t3.join();
 
-        synchronized (System.out) {
+//        synchronized (System.out) {
+//            System.out.println("Total isi air berhasil: " + counter.getCount() + " kali");
+//            System.out.println("Total air dalam botol: " + bottle.getLiter() + " liter");
+//        }
+
+
             System.out.println("Total isi air berhasil: " + counter.getCount() + " kali");
             System.out.println("Total air dalam botol: " + bottle.getLiter() + " liter");
-        }
+        scanner.close();
     }
 }
