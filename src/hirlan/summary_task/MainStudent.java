@@ -12,10 +12,6 @@ public class MainStudent {
                 new Student("004","Deni",74),
                 new Student("005","Budi",65));
 
-        System.out.println("Mahasiswa dengan nilai diatas 75 : ");
-        Scanner scanner = new Scanner(System.in);
-        scanner.hasNext();
-
 
         List<Student> desc = student.stream()
                 .sorted(Comparator.comparingInt(Student::getNilai).reversed())

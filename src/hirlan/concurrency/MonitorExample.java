@@ -4,18 +4,19 @@ public class MonitorExample {
     public static void main(String[] args) throws InterruptedException {
         CounterMonitor counter = new CounterMonitor();
 
+
         //AtomicInteger number = new AtomicInteger();
         Thread thread1 = new Thread(() -> {
             for (int i = 0; i < 100; i++) {
                 counter.increment();
-                System.out.println(counter.getCount() + " t1 -> " + i);
+                System.out.println(counter.getCount() + " monitoring thread pertama : " + i);
             }
         });
 
         Thread thread2 = new Thread(() -> {
             for (int i = 0; i < 100; i++) {
                 counter.increment();
-                System.out.println(counter.getCount() + " t2 -> " + i);
+                System.out.println(counter.getCount() + " monitoring thread kedua : " + i);
             }
         });
 

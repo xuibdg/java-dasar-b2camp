@@ -22,12 +22,10 @@ public class Salary {
 
 
 
-        int salaryPerDay = 500_000; // Gaji tetap programmer per hari (Rp 500 ribu)
+        int salaryPerDay = 500_000;
 
-        // Hitung total gaji 30 hari (gaji perhari * 30)
         int totalSalary = IntStream.rangeClosed(1, 30)
                 .reduce(0, (totals, hari) -> totals + salaryPerDay);
-       // int totalSaldo = salaryPerDay+totalSalary;
 
         System.out.println(salaries);
         System.out.println("Gaji Harian : Rp "+salaryPerDay);
@@ -35,10 +33,9 @@ public class Salary {
 
 
         System.out.println("---------------------------------------------");
-        int gajiAwal = 400_000; // Gaji hari pertama (Rp 400 ribu)
-        int kenaikanPerHari = 10_000; // Naik Rp 10 ribu per hari
+        int gajiAwal = 400_000;
+        int kenaikanPerHari = 10_000;
 
-        // Hitung dengan kenaikan harian: gajiAwal + (kenaikanPerHari * (hari-1))
         int totalGaji = IntStream.rangeClosed(1, 30)
                 .map(hari -> gajiAwal + (kenaikanPerHari * (hari)))
                 .reduce(0, Integer::sum);

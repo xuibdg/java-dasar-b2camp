@@ -8,7 +8,7 @@ public class LockExample {
             counter.locking();
             for (int i = 0; i < 100; i++) {
                 counter.increment();
-                System.out.println(counter.getCount() + " t1 -> " + i);
+                System.out.println(counter.getCount() + " lock&lock 0: " + i);
             }
 
             counter.unlocking();
@@ -18,7 +18,7 @@ public class LockExample {
             counter.locking();
             for (int i = 0; i < 100; i++) {
                 counter.increment();
-                System.out.println(counter.getCount() + " t2 -> " + i);
+                System.out.println(counter.getCount() + " lock&locking 1: " + i);
             }
             counter.unlocking();
         });

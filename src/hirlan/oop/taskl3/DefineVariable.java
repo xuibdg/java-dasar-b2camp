@@ -19,9 +19,8 @@ public class DefineVariable {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan sebuah kalimat: ");
-        String kalimat = scanner.nextLine().toLowerCase(); // Konversi ke lowercase
+        String kalimat = scanner.nextLine().toLowerCase();
 
-        // Pisahkan kalimat menjadi kata-kata (split by spasi)
         String[] kataArray = kalimat.split("\\s+");
 
         for (String kata : kataArray) {
@@ -49,22 +48,19 @@ public class DefineVariable {
         }
     }
 
-    // Cek apakah karakter adalah vokal
     private static boolean isVokal(char ch) {
         return "aeiou".indexOf(ch) != -1;
     }
 
-    // Format output map menjadi string (contoh: a=2, e=1)
     private static String formatHasil(Map<Character, Integer> map) {
         if (map.isEmpty()) return "-";
         StringBuilder sb = new StringBuilder();
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
             sb.append(entry.getKey()).append("=").append(entry.getValue()).append(", ");
         }
-        return sb.substring(0, sb.length() - 2); // Hapus koma terakhir
+        return sb.substring(0, sb.length() - 2);
     }
 
-    // Hitung total huruf dalam map
     private static int hitungTotal(Map<Character, Integer> map) {
         return map.values().stream().mapToInt(Integer::intValue).sum();
 
