@@ -1,7 +1,7 @@
 package rafie.belajar_java_dasar.solid_learn;
 
 public class StockProduct implements Operation {
-    private
+    private int qty;
 
     @Override
     public void stockProduct(int stock) {
