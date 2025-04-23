@@ -1,4 +1,4 @@
-package hirlan.oop.taskl3;
+package hirlan.taskl3;
 
 import java.util.ArrayList;
 import java.util.List;

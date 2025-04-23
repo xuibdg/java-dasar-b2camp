@@ -1,4 +1,4 @@
-package hirlan.oop.taskl3;
+package hirlan.taskl3;
 
 import java.util.HashMap;
 import java.util.Map;
