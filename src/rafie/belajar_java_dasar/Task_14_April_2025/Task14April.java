@@ -27,10 +27,11 @@ class LicensePlateException {
     }
 
     public static void validatePlat(String plat) throws Task14April {
-        if (plat.equals("D")) {
-            throw new Task14April("Kendaraan Anda terdata di Jawa Barat");
+        String lowerPlat = plat.toLowerCase();
+        if (lowerPlat.equals("D")) {
+            throw new Task14April("Kendaraan Anda terdata di Bandung");
         } else {
-            throw new Task14April("Kendaraan Anda terdata diluar Jawa Barat");
+            throw new Task14April("Kendaraan Anda terdata diluar Bandung");
         }
     }
 }
