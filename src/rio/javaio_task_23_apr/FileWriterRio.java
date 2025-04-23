@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class FileWriterRio {
     public static void main(String[] args) {
-        String filePath = "mulDim.xlsx";
+        String filePath = "mulDim.csv";
 
         String muldimFinally =
                 "o,o,o,o, , ,o, , ,o,o,o, , , ,o,o,o,o, , ,o, ,o, , , ,o, , ,o,o,o, , ,o, , , , , ,o, , ,o,o,o, ,;," +

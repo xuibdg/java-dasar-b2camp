@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class FileReaderRio {
     public static void main(String[] args) {
-        String filePath = "mulDim.xlsx";
+        String filePath = "mulDim.csv";
         int number = 100;
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))){
