@@ -1,6 +1,6 @@
 package Revi.Belajar_Java_Dasar;
 
-public class KonversiTipeData {
+public class    KonversiTipeData {
     public static void main(String[] args) {
         int angkaInt = 50;
         double angkaDouble = angkaInt;
