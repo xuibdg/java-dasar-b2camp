@@ -1,6 +1,6 @@
 package rafie.belajar_java_dasar.Task_24_March_2025;
 
-// Main.java sebagai PSVM.
+// Mains.java sebagai PSVM.
 
 import java.util.Scanner;
 
