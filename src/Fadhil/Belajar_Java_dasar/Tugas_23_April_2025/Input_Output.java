@@ -26,7 +26,7 @@ public class Input_Output {
             }
         }
 
-        System.out.println("✅ File 'Learn.csv' berhasil dibuat dalam format vertikal per kata!");
+        System.out.println("✅ File 'Learn.txt' berhasil dibuat dalam format vertikal per kata!");
     }
 
     static void initPatterns() {
@@ -43,7 +43,7 @@ public class Input_Output {
     }
 
     static void setA() {
-        int i = 'A' - 'A';
+        int i = 0;
         for (int row = 0; row < 7; row++) {
             for (int col = 0; col < 7; col++) {
                 if ((row == 0 && col > 0 && col < 6) ||
