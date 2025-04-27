@@ -7,25 +7,25 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Muda berkelana tua bercerita");
-        System.out.println("Masukkan nama motor kesayangan Anda (ketik 'stop' untuk selesai):");
 
         while (true) {
-            System.out.print("Nama motor: ");
-            String inputanUser = scanner.nextLine();
-
-            if (inputanUser.equalsIgnoreCase("stop")) {
+            if(Motor.getTotalMotors() >= 3) {
+                System.out.println("Motornya sudah maks");
                 break;
             }
 
+            System.out.print("Masukkan nama motor kesayangan Anda: ");
+            String inputanUser = scanner.nextLine();
+
             Motor motorUser = new Motor(inputanUser);
-            motorUser.start();
+            motorUser.run();
             try {
-                Thread.sleep(50);
+                motorUser.join();
+                Thread.sleep(2800);
             } catch (InterruptedException e) {
                 System.out.println("Error di main thread!");
             }
         }
         scanner.close();
-        System.out.println("Simulasi touring selesai!");
     }
 }
